@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(196, 247, 240);
+    position: relative;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: right;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+    background: #89c1f7;
+    border-radius: 30%;
+}
+.frm-group{
+    margin-left: 20px ;
+    margin-bottom: 10px;
+}
+input{
+    outline: none;
+}
+span{
+    position: absolute;
+    bottom: 50px;
+    background: #000;
+}
